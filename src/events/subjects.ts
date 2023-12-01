@@ -1,3 +1,3 @@
 export enum Subjects {
-	sample = "sampleValue",
+	PostCreated = "post:created",
 }
