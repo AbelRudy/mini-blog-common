@@ -1,7 +1,7 @@
 import { Subjects } from "./subjects";
 
 export interface PostDeletedEvent {
-	subject: Subjects.PostUpdated;
+	subject: Subjects.PostDeleted;
 	data: {
 		id: string;
 		version: number;
