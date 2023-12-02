@@ -7,6 +7,6 @@ export interface PostCreatedEvent {
 		authorId: string;
 		title: string;
 		content: string;
-		version: string;
+		version: number;
 	};
 }
