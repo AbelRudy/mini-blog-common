@@ -12,6 +12,8 @@ export * from "./middlewares/verify-access-token";
 
 export * from "./events/listener";
 export * from "./events/post-created-event";
+export * from "./events/post-deleted-event";
 export * from "./events/post-updated-event";
 export * from "./events/publisher";
 export * from "./events/subjects";
+
